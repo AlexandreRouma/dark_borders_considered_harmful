@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+   
+    "name": "Dark Borders: Considered Harmful",
+    "version": "4.2.0",
+    "description": "Ayo that design choice was kinda cringe",
+   
+    "content_scripts": [{
+        "css": ["not_sus.css"],
+        "matches": ["https://my.unicast.uliege.be/*"]
+    }],
+
+    "icons": {
+        "96": "/icon.png"
+    }
+}
